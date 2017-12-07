@@ -1,4 +1,26 @@
 *{
-	padding: 0;
-	margin: 0;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+:root {
+	--we-margin: 0;
+	--we-padding: 0;
+}
+.we-main{
+	margin: var(--we-margin);
+	padding: var(--we-padding);
+/*	min-width: 100vw;
+	min-height: 100vh;*/
+	background-color: #3399CC;
+	border-radius: 25px solid #2B81AC;
+}
+.we-title{
+	margin: var(--we-margin);
+	padding: var(--we-padding);
+}
+.we-grid{
+	list-style: none;
+	background: #ccc;
+	padding: var(--we-padding);
+	margin: 0 auto;
+	width: 1000px;
 }
