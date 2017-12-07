@@ -10,7 +10,6 @@
 	padding: 0;
 	min-width: 100vw;
 	min-height: 100vh;
-	/*background-color: #3399CC;*/
 	background-color: var(--background-color);
 	border: 25px solid #2B81AC;
 }
@@ -20,8 +19,14 @@ color: #fff;
 font-size: 26px;
 font-weight: 100;
 }
+.we-title2{
+margin: 30px 0;
+color: #fff;
+font-size: 16px;
+font-weight: 100;	
+}
 .we-wrapper{
-	width: calc(100vw - 30%);
+	width: calc(100vw - 40%);
 	margin: 0 auto;
 }
 .we-grid{
@@ -123,5 +128,11 @@ a{
 	max-height: 25%;
 	font-size: 20px;
 	background-color: #666699;
+}
+
+@media (max-width: 800px) {
+ .we-grid-item{
+ 	width: 100%;
+ }
 }
 
